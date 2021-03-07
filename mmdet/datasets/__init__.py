@@ -11,6 +11,7 @@ from .registry import DATASETS
 from .builder import build_dataset
 from .icevision import IceVision
 from .icevision_all_classes import IceVisionAllClasses
+from .my_dataset import MyDataset
 
 __all__ = [
     'CustomDataset', 'XMLDataset', 'CocoDataset', 'VOCDataset', 'GroupSampler',
